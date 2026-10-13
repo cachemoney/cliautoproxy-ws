@@ -1,21 +1,13 @@
-<placeholder>
-Add project-specific instructions here. This content will be merged into AGENTS.md.
+## Agent skills
 
-Remove these `<placeholder>` tags when adding your content.
+### Issue tracker
 
-Example content:
+Issues are tracked in GitHub Issues on `cachemoney/cliautoproxy-ws`, using the `gh` CLI. See `docs/agents/issue-tracker.md`.
 
-## Project Overview
-Brief description of what this project does.
+### Triage labels
 
-## Key Concepts
-- **Term 1** - Definition
-- **Term 2** - Definition
+Default five-role vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
 
-## Repository Structure
-- `repositories/component-a/` - Description of component A
-- `repositories/component-b/` - Description of component B
+### Domain docs
 
-## Issue Tracking
-How work is tracked (Jira, GitHub Issues, Linear, etc.)
-</placeholder>
+Multi-context: a root `GLOSSARY-MAP.md` (created lazily by `/domain-modeling`) pointing to per-repository `GLOSSARY.md` files, with ADRs in `docs/adr/` and `repositories/<repo>/docs/adr/`. See `docs/agents/domain.md`.

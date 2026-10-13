@@ -176,3 +176,19 @@ git push origin <branch-name>      # Just push the submodule now
 # Parent reference is already correct, no additional action needed
 ```
 
+
+<project-context>
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked in GitHub Issues on `cachemoney/cliautoproxy-ws`, using the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default five-role vocabulary: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Multi-context: a root `GLOSSARY-MAP.md` (created lazily by `/domain-modeling`) pointing to per-repository `GLOSSARY.md` files, with ADRs in `docs/adr/` and `repositories/<repo>/docs/adr/`. See `docs/agents/domain.md`.
+</project-context>
