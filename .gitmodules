@@ -1,0 +1,9 @@
+[submodule "repositories/DevScripts"]
+	path = repositories/DevScripts
+	url = git@github.com:cachemoney/DevScripts.git
+[submodule "repositories/CPA-Manager-Plus"]
+	path = repositories/CPA-Manager-Plus
+	url = git@github.com:seakee/CPA-Manager-Plus.git
+[submodule "repositories/CLIProxyAPI"]
+	path = repositories/CLIProxyAPI
+	url = git@github.com:cachemoney/CLIProxyAPI.git
